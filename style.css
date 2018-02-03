@@ -40,7 +40,7 @@ nav ul {
     display: flex;
     justify-content: center;
 }
-.dropdown {
+.dropdown{
     opacity: 0;
     position: absolute;
     overflow: hidden;
@@ -52,6 +52,7 @@ nav ul {
     will-change: opacity;
     display: none;
 }
+
 .trigger-enter .dropdown {
     display: block;
 }
@@ -70,6 +71,10 @@ nav ul {
     justify-content: center;
     opacity: 0;
 }
+.dropdownBackground.open {
+    opacity: 1;
+}
+
 .arrow {
     position: absolute;
     width: 20px;
@@ -89,8 +94,8 @@ nav ul {
 .bio img {
     float: left;
     margin-right: 20px;
-    width: 100px;
-    height: 250px
+    width: 160px;
+    height: 250px;
 }
 .projects {
     min-width: 300px;
